@@ -1,0 +1,33 @@
+MapSize(5, 5)
+GameTitle("Frog Cave")
+Cursor(">")
+NullText("Nothing Here!")
+ExitKey(q)
+
+
+ShowMap(True)
+MapNullText(" % ")
+MapPlayerText("[o]")
+
+MakePlayer(0, 0)
+
+
+
+MakeRoom{
+    ID = Cave
+    Location = 2, 2
+    Icon = "[#]"
+}
+
+MakeRoom{
+    ID = Shop
+    Location = 0, 1
+    Icon = "[$]"
+}
+
+MakeRoom{
+    ID = House
+    Location = 3, 3
+    Icon = "[^]"
+}
+

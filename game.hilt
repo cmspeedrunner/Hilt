@@ -1,0 +1,34 @@
+@main.hilt
+
+
+
+OnEntry.Cave{
+    prompt(
+        ID = CavePrompt
+        Text = "You find yourself in a cave. What do you do?"
+        Options = ["Explore", "Run Out", "Dance"]
+        Return = ["You found nothing...", "Everyone laughed at you for being such a 'crybaby'.", "Everyone posted you dancing on Instagram Reels. You got bullied."]
+    )
+
+}
+
+OnEntry.Shop{
+    prompt(
+        ID = ShopEntry
+        Text = "You entered the busy market, eger for wares."
+        Options = ["Buy wares", "Vlog it", "Sell Wares"]
+        Return = ["You bought a gram of sheckledust. Probably should throw that away.", "You vlogged it!", "No one wanted to buy your loose paperclips and keycaps."]
+    )
+
+}
+
+OnEntry.House{
+    prompt(
+        ID = House
+        Text = "You relax in your lovely home. What do you watch?"
+        Options = ["Breaking Bad", "Twin Peaks", "Nothing"]
+        Return = ["You enjoyed it. Solid 9/10", "Your life changed! 100/10", "You are lonely"]
+    )
+}
+
+
