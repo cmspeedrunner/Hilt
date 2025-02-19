@@ -114,6 +114,8 @@ OnEntry.House{
 }
 ```
 This is a full example, the config creates 3 rooms and the main file initialises actions to happen on entry.<br>
+# Playing your game
+To play your game, simply run `python main.py main.hilt`, obviously replacing `main.hilt` with whatever the name for your main file is<br>
 
 # Important
 It is important to note ***THIS IS VERY EARLY STAGE*** and I plan on expanding it much much more, but wanted to get it up here.<br>
